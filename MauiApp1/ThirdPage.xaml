@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.ThirdPage"
+             Title="回上一頁">
+    <StackLayout>
+            <VerticalStackLayout Spacing="15" Padding="20">
+            <Button x:Name="WeatherButton" Text="獲取天氣" Clicked="OnWeatherButtonClicked"/>
+            <Label x:Name="Taipei" Text="=天氣資訊將顯示在這裡"/>
+
+        </VerticalStackLayout>
+        <Label 
+           Text="台北州廳"
+           FontSize="40"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" 
+            Margin="0,0,0,-50"/>
+
+        <Image Source="tei.png"
+           HeightRequest="250"
+           WidthRequest="400" 
+           Margin="0,0,0,-50"/>
+
+        <Label Text="歷史"
+              FontSize="25"
+              TextColor="Black"
+              VerticalOptions="StartAndExpand"
+             LineHeight="0.2"/>
+
+        <Label Text="台北州廳是日治時期日本政府在台灣的行政機構，成立於1895年。"
+              FontSize="15"
+              TextColor="Black"
+              VerticalOptions="StartAndExpand"
+              HorizontalOptions="Center"
+              Margin="0,0,0,-20"/>
+
+        <Label Text="轉變"
+               FontSize="25"
+               TextColor="Black"
+               VerticalOptions="StartAndExpand"
+               LineHeight="0.2"/>
+
+        <Label Text="二戰後，隨著政權轉移，這棟建築的使用性質也隨之改變。它一度成為台北市政府的辦公地點，而現今為監察院"
+              FontSize="15"
+              TextColor="Black"
+              VerticalOptions="StartAndExpand"
+              HorizontalOptions="Center"
+               Margin="0,0,0,-20"/>
+
+        <Label Text="建築風格"
+              FontSize="25"
+              TextColor="Black"
+              VerticalOptions="StartAndExpand"
+               LineHeight="0.2"/>
+
+        <Label Text="歐洲古典建築元素和日本傳統設計，顯示了文化融合的特點。它的外觀採用了文藝復興風格的設計，包括對稱的立面和重點突出的中央入口。"
+               FontSize="15"
+               TextColor="Black"
+               VerticalOptions="StartAndExpand"
+               HorizontalOptions="Center"/>
+
+    </StackLayout>
+</ContentPage>

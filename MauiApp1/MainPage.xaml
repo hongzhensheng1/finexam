@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+
+
+    <StackLayout VerticalOptions="End" HorizontalOptions="CenterAndExpand">
+        <Label Text="日治時期行政中心"
+               FontSize="25"
+               TextColor="Black"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+        <Image Source="main.jpg"
+            HeightRequest="400"
+            WidthRequest="400" />
+        
+        <Button Text="台灣總督府" Clicked="OnSecButtonClicked"
+                BackgroundColor="#F6D48F" TextColor="White" WidthRequest="400" HeightRequest="80"/>
+        
+        <Button Text="台北州廳" Clicked="OnThiButtonClicked"
+        BackgroundColor="#F6D48F" TextColor="White" WidthRequest="400" HeightRequest="80"/>
+
+        <Button Text="台中州廳" Clicked="OnFouButtonClicked"
+        BackgroundColor="#F6D48F" TextColor="White" WidthRequest="400" HeightRequest="80"/>
+
+        <Button Text="台南州廳" Clicked="OnFivButtonClicked"
+        BackgroundColor="#F6D48F" TextColor="White" WidthRequest="400" HeightRequest="80"/>
+
+
+    </StackLayout>
+
+
+</ContentPage>
